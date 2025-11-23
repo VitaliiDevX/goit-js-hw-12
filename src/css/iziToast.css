@@ -1,0 +1,9 @@
+.my-toast .iziToast-close {
+  background-image: url('../img/close.svg') !important;
+  background-size: 16px 16px !important;
+  background-position: 50% center !important;
+}
+
+.my-toast .iziToast-close:before {
+  display: none !important;
+}
