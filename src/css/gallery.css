@@ -49,3 +49,14 @@
 .stat-number {
   line-height: 2;
 }
+
+.load-more-btn {
+  display: none;
+  min-width: 125px;
+  margin-top: 32px;
+}
+
+.load-more-btn.is-visible {
+  display: flex;
+  justify-content: center;
+}

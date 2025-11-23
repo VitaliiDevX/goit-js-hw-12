@@ -30,3 +30,22 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  outline: none;
+  border: transparent;
+  background-color: #4e75ff;
+  color: #fff;
+  cursor: pointer;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  &:hover {
+    background-color: #6c8cff;
+  }
+}
